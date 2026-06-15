@@ -46,7 +46,7 @@ your-web-root/
 
 ### 1. 下載專案
 ```bash
-git clone https://github.com/你的帳號/mp3-folder-player.git
+git clone https://github.com/ddmmbb-2/mp3-folder-player.git
 cd mp3-folder-player
 ```
 
