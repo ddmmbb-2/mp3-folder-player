@@ -27,7 +27,7 @@
 
 ```
 your-web-root/
-├── play.php                 # 主程式
+├── index.php                 # 主程式
 ├── player.js                # 前端播放器邏輯
 ├── style.css                # 樣式表
 ├── soundtouch-processor.js  # 升降 Key 處理器（AudioWorklet）
@@ -65,7 +65,7 @@ mkdir mp3
 將整個專案上傳至網站伺服器（需支援 PHP），確保 `mp3/` 資料夾及子資料夾具備讀取權限。
 
 ### 5. 開啟瀏覽器
-訪問 `http://你的網址/play.php` 即可使用。
+訪問 `http://你的網址/index.php` 即可使用。
 
 ## 📖 使用說明
 
@@ -99,7 +99,7 @@ mkdir mp3
 
 ## ⚙️ 設定調整
 
-若需修改音樂目錄位置，請編輯 `play.php` 開頭的 `$mp3_base_dir` 變數：
+若需修改音樂目錄位置，請編輯 `index.php` 開頭的 `$mp3_base_dir` 變數：
 
 ```php
 $mp3_base_dir = __DIR__ . "/mp3";  // 可改為其他絕對路徑
