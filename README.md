@@ -121,4 +121,4 @@ MIT License
 - Web Audio API — 瀏覽器音訊處理基礎
 ```
 
-> **請務必將 `soundtouch-processor.js` 一併放入專案**，否則升降 Key 功能會無法運作（但播放器仍可正常播放）。若尚未有此檔案，我可以額外提供一個可運作的最小實作版本。
+> **請務必將 `soundtouch-processor.js` 一併放入專案**，否則升降 Key 功能會無法運作（但播放器仍可正常播放）。
